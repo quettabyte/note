@@ -1,0 +1,88 @@
+# Git分布式版本控制系统
+***
+### 1.安装Git
+Linux
+```
+sudo apt-get install git
+```
+如果是其他Linux版本，可以直接通过源码安装。先从Git官网下载源码，然后解压，依次输入：./config，make，sudo make install这几个命令安装就好了。
+
+windows
+    Git官网直接[下载](https://git-scm.com/downloads)安装程序，然后按默认选项安装即可。
+
+基本设置
+```shell
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+```
+### 2.创建Git仓库
+```shell
+$ mkdir test
+$ cd test
+$ git init
+```
+### 3.删除Git仓库
+```shell
+$ rm -rf test
+```
+### 4.把文件添加到Git仓库
+```shell
+$ git add readme.txt
+$ git commit -m "wrote a readme file"
+```
+### 5.创建分支
+```shell
+$ git branch <name>
+```
+```shell
+#git checkout命令加上-b参数表示创建并切换
+$ git checkout -b dev
+```
+```shell
+#git switch命令加上-c参数表示创建并切换
+$ git switch -c dev
+```
+### 6.切换分支
+```shell
+$ git checkout dev
+```
+```shell
+$ git switch dev
+```
+### 7.查看分支
+当前分支前面会标一个`*`号
+每次add commit都是提交到当前分支的
+```shell
+$ git branch
+* dev
+  master
+```
+### 8.合并分支
+合并某分支到当前分支
+```shell
+$ git merge dev
+```
+### 9.删除分支
+合并完成后，就可以放心的删除dev分支了
+```shell
+$ git branch -d dev
+```
+## 一、远程Git仓库
+### http
+
+* 在Github上创建一个新的仓库
+* 在本地克隆仓库
+```shell
+git clone https://github.com/cokeyice/hello-world
+```
+* 推送文件
+```shell
+$ git add .
+$ git commit -m "info"
+$ git push -u origin master
+```
+> github: 推送需要密码或者token(麻烦)
+> gitee: 需要登录gitee(容易)
+### SSH
+
+
