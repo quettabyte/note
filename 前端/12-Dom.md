@@ -46,3 +46,50 @@
 
 ## 方法
 
+* `hasChildNodes()` 是否有子节点 ==包括#text==
+
+  返回布尔值
+
+  ```js
+  var ulList = document.querySelector('ul');
+  ulList.hasChildNodes();
+  ```
+
+* `document.createElement('节点名称')` 创建节点
+
+  ```js
+  var newLi = document.createElement('li');
+  ```
+
+* `appendChild()` 向当前节点末尾添加子节点
+
+  ```js
+  ulList.appendChild(newLi);
+  ```
+
+* `insertBefore()` 向指定位置添加节点
+
+  两个参数：新节点和参照节点
+
+* d
+
+* d
+
+* d
+
+* d
+
+* d
+
+* d
+
+
+
+
+
+
+
+
+
+
+
