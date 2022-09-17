@@ -147,7 +147,7 @@ function getValue(key){
 }
 ```
 
-* 查找元素 <a href="./10-元素操作.md">10-元素操作 </a>
+* 查找元素 <a href="./10-元素操作.md" target="_blank">10-元素操作 </a>
 
 * `document.write()` 文档写入
 
