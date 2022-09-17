@@ -1,4 +1,4 @@
-# 
+# DOM
 
 ## Node属性
 
@@ -108,8 +108,12 @@
 * `document.title` 返回title元素中的文本，该属性可写
 * `document.URL` 返回当前页面的网址
 * `document.domain` 返回当前文档的域名
+* 查找元素 <a href="./10-元素操作.md" target="_blank">10-元素操作 </a>
+* `document.write()` 文档写入
 
-**通过url获取的信息展示在页面上**
+* `document.createElement()` 创建元素
+
+## 页面之间传值
 
 ```js
  var h2=document.getElementsByTagName('h2');
@@ -147,45 +151,107 @@ function getValue(key){
 }
 ```
 
-* 查找元素 <a href="./10-元素操作.md" target="_blank">10-元素操作 </a>
-
-* `document.write()` 文档写入
-
-* `document.createElement()` 创建元素
-
-
-
-
-
 
 
 ## 元素属性方法
 
+* `setAttribute('属性名','属性值')` 为元素新增属性,或设置当前属性
 
+  ```js
+  img.setAttribute('src','https://xxxx')ｄｆｄｆｄｆｄｓａ
+  ```
 
+  >点语法设置属性 只能体现标签本身有的属性
+  >
+  >`setAttribute`设置属性 标签本身有的属性和自定义属性都可以体现
+  >
+  >`div.index='hello';` 这个不能实现，因为是自定义属性
+  >
+  >`div.setAttribute('index1','hello');`
 
+* `removeAttribute('属性名')` 删除元素属性
 
+  ```js
+  div.setAttribute('index','hello');
+  div.removeAttribute('index');
+  ```
 
+* `getAttribute('属性名')` 获取元素属性
 
-
+  ```js
+  div.getAttribute('index');
+  ```
 
 
 
 ## 元素大小方法
 
+**offset**
+
+* `offsetLeft` 元素左外边框距离左边的距离
+
+* `offsetTop` 元素上外边框距离上边的距离
+
+* `offsetHeight` 元素垂直方向所占空间
+
+  height + padding + border的高度 ==和子元素大小无关==
+
+* `offsetWidth` 元素水平方向所占空间
+
+  同上
+
+**client**
+
+height + padding 的高度  ==和子元素大小无关==
+
+* `clientHeight` 元素垂直方向所占空间
+* `clentWidth` 元素水平方向所占空间
+
+**scroll**
+
+子元素不大于父元素的情况下和 `client` 相同 ==和子元素大小有关==
+
+子元素大于父元素：子元素大小 + padding + border + margin 2
+
+* `scrollHeight` 元素垂直方向所占空间
+* `scrollWidth` 元素水平方向所占空间
+* `scrollLeft` 有滚动条的情况设置或者获取向左滚动的距离
+* `scrollTop` 有滚动条的情况设置或者获取向上滚动的距离
 
 
 
+## 获取宽高
 
+Dom是文档对象模型
 
+document对象是文档的根节点
 
+element代表元素节点，代表页面中的一个个标签
 
+***
 
+* 获取视口宽度/高度 ==（可见区域，不包括滚动条）==
 
+  `document.documentElement.clientHeight`
 
+  `document.documentElement.clientWidth`
 
+* 获取页面内容高度 ==Body对象==
 
+  `document.body.clientHeight`
 
+* 获取垂直滚动条向下滚动的距离
+  `document.documentElement.scrollTop`
+
+* 获取水平滚动条向右滚动的距离
+
+  `document.documentElement.scrollLeft`
+
+* 返回串口的文档显示区的宽度/高度 ==（包括滚动条）==
+
+  `window.innerWidth`
+
+  `window.innerHeight`
 
 
 
