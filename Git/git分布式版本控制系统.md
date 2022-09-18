@@ -2,7 +2,7 @@
 ***
 ### 1.安装Git
 Linux
-```
+```shell
 sudo apt-get install git
 ```
 如果是其他Linux版本，可以直接通过源码安装。先从Git官网下载源码，然后解压，依次输入：./config，make，sudo make install这几个命令安装就好了。

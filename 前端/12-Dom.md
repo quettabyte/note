@@ -1,4 +1,6 @@
-# DOM
+# 文档对象模型（Document Object Model，简称DOM）
+
+***
 
 ## Node属性
 
@@ -113,7 +115,7 @@
 
 * `document.createElement()` 创建元素
 
-## 页面之间传值
+## 页面传值
 
 ```js
  var h2=document.getElementsByTagName('h2');
