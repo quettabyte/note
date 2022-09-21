@@ -1,4 +1,4 @@
-# 事件对象
+# 事件对象（Event）
 
 ***
 
@@ -27,8 +27,8 @@
 | onclick       | 单击     |
 | ondblclick    | 双击     |
 | oncontextmenu | 右键菜单 |
-| onmouseover   | 移入*    |
-| onmouseout    | 移出*    |
+| onmouseover   | 移入     |
+| onmouseout    | 移出     |
 | onmouseenter  | 移入     |
 | onmouseleave  | 移出     |
 | onmousedown   | 按下     |
