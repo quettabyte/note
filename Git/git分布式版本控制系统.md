@@ -1,6 +1,8 @@
-# Git分布式版本控制系统
+## Git分布式版本控制系统
+
 ***
 ### 1.安装Git
+
 Linux
 ```shell
 sudo apt-get install git
