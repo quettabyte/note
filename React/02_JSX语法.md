@@ -1,4 +1,4 @@
-## JavaScript XML
+## JavaScript XML📚
 
 react定义的一种类似于XML的JS扩展语法：JS+XML本质是`React.createElement(component, props, ...children)`方法的语法糖
 
