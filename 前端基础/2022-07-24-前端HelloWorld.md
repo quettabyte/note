@@ -1,6 +1,16 @@
-# Hello World
+---
+title: Hello World
+date: 2022-07-24 16:43:03
+author: cokeice
+tags: [HTML, CSS, JavaScript]
+categories: 
+    - 笔记
+    - 前端基础
+excerpt: html结构 web文件夹结构
+---
 
-***
+<p align='center'>
+<a href="https://www.github.com/Cokeic" target="_blank"><img src="https://img.shields.io/badge/Github-@可乐冰-f3e1e1.svg?style=flat-square&logo=Github&logoColor=181717"></a><a href="https://www.gitee.com/Cokeice" target="_blank"><img src="https://img.shields.io/badge/Gitee-@可乐冰-f3e1e1.svg?style=flat-square&logo=Gitee&logoColor=C71D23"></a><a href="https://cokeice.gitee.io/img/wechat/wx.png" target="_blank"><img src="https://img.shields.io/badge/微信-@LNFeng-f3e1e1.svg?style=flat-square&logo=WeChat"></a>
 
 ## hello world
 
@@ -44,7 +54,10 @@
 
 * other.html web的其他页面
 
-  ​
+  
+
+
+
 
 
 
