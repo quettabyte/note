@@ -1,5 +1,5 @@
 ---
-title: React组件三大属性state、props、refs
+title: 三大属性state、props、refs
 date: 2022-10-27 16:04:04
 author: cokeice
 tags: [JavaScript, React]
