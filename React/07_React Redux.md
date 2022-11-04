@@ -2,7 +2,7 @@
 
 ### React-Redux基本概念
 
-<img src="..\..\img\react-redux-yuanli.jpg" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/cokeic/pic/main/react/202211041041113.jpg" style="zoom:50%;" />
 
 1. ✔明确两个概念：
    * UI组件:不能使用任何redux的api，只负责页面的呈现、交互等。

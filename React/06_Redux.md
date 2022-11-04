@@ -2,7 +2,7 @@
 
 ### Redux工作流程
 
-<img src="..\..\img\redux-yuanli.jpg" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/cokeic/pic/main/react/202211041043707.jpg" style="zoom:50%;" />
 
 客户-服务员-老板-厨师🤣
 
