@@ -21,6 +21,23 @@
    * 如果新状态依赖于原状态 ==> 使用函数方式
    * 如果需要在 `setState()` 执行后获取最新的状态数据, 要在第二个 `callback` 函数中读取
 
+### 样式的模块化
+
+```css
+.title {
+  background-color: skyblue;
+}
+```
+
+```jsx
+import hello from './index.module.css'
+export default class Hello extends Component{
+  render(){
+    return <h2 className={hello.title}>Hello,React!</h2>
+  }
+}
+```
+
 ### lazyLoad(懒加载)
 
 > 通过React的lazy函数配合import()函数动态加载路由组件
@@ -196,3 +213,4 @@ componentDidCatch(error, info) {
     console.log(error, info);
 }
 ```
+
