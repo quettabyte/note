@@ -17,7 +17,7 @@ jobs:
 
       - name: Clone repository and push
         env:
-          SRC_REPO: "https://github.com/quettabyte/note.git"
+          SRC_REPO: "git@github.com:quettabyte/note.git"
           DIST_REPO: "git@gitee.com:quettabyte/note.git"
         run: |
           git clone --mirror "$SRC_REPO"
