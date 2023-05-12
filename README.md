@@ -6,4 +6,4 @@
 
 Cokeice🥤
 
-个人博客网站：https://cokeice.gitee.io
+个人博客网站：https://quettabyte.gitee.io
