@@ -2,7 +2,7 @@
 
 ### Redux工作流程
 
-<img src="https://cokeice-pic.oss-cn-wulanchabu.aliyuncs.com/redux-yuanli.jpg" style="zoom:50%;" />
+<img src="https://lnfeng-pic.oss-cn-wulanchabu.aliyuncs.com/web-note/react/2024-5-17-23-32-22.jpg" alt="2024-5-17-23-32-22.jpg" style="zoom:50%;" />
 
 客户-服务员-老板-厨师🤣
 

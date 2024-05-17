@@ -56,7 +56,7 @@
 
 ### 案例
 
-[拖拽](https://gitee.com/cokeice/study_web/blob/master/javascript/05-BOM,EVENT/02-拖拽.html)、[蒙版图](https://gitee.com/cokeice/study_web/blob/master/javascript/05-BOM,EVENT/03-蒙版图.html)、[放大镜](https://gitee.com/cokeice/study_web/blob/master/javascript/05-BOM,EVENT/04-放大镜.html)
+[拖拽](https://gitee.com/quettabyte/study_web/blob/master/javascript/05-BOM,EVENT/02-拖拽.html)、[蒙版图](https://gitee.com/quettabyte/study_web/blob/master/javascript/05-BOM,EVENT/03-蒙版图.html)、[放大镜](https://gitee.com/quettabyte/study_web/blob/master/javascript/05-BOM,EVENT/04-放大镜.html)
 
 ## 键盘事件
 
@@ -72,7 +72,7 @@
 
 * `shiftkey`、`altkey`、`ctrlkey`
 
-* [案例](https://www.gitee.com/cokeice/study_web/blob/master/javascript/05-BOM,EVENT/05-键盘.html)、[按键游戏](https://gitee.com/cokeice/study_web/blob/master/javascript/05-BOM,EVENT/07-按键游戏.html)、[弹方块](https://gitee.com/cokeice/study_web/blob/master/javascript/05-BOM,EVENT/08-弹方块.html)
+* [案例](https://www.gitee.com/quettabyte/study_web/blob/master/javascript/05-BOM,EVENT/05-键盘.html)、[按键游戏](https://gitee.com/quettabyte/study_web/blob/master/javascript/05-BOM,EVENT/07-按键游戏.html)、[弹方块](https://gitee.com/quettabyte/study_web/blob/master/javascript/05-BOM,EVENT/08-弹方块.html)
 
 ## 表单事件
 
@@ -161,7 +161,7 @@ dHero.ontouchstart = function (e) {
 
 ## 练习
 
-[飞机大战](https://gitee.com/cokeice/study_web/tree/master/javascript/06-练习/01-飞机大战)
+[飞机大战](https://gitee.com/quettabyte/study_web/tree/master/javascript/06-练习/01-飞机大战)
 
 
 

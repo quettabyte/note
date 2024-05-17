@@ -1,18 +1,18 @@
-## React入门📚
+# React入门📚
 
-### react开发者工具
+## react开发者工具
 
-<img src="https://cokeice-pic.oss-cn-wulanchabu.aliyuncs.com/image-20221103215647967.png" style />
+![2024-5-17-23-30-22.png](https://lnfeng-pic.oss-cn-wulanchabu.aliyuncs.com/web-note/react/2024-5-17-23-30-22.png)
 
 ⚙在浏览器插件商店搜索`React Developer Tools`下载并安装
 
-### react脚手架
+## react脚手架
 
 > 技术：react+webpack+es6+eslint
 >
 > 特点：模块化，组件化，工程化
 
-#### 创建项目并启动
+### 创建项目并启动
 
 详见[官方说明](https://cra.docschina.org/docs/getting-started)
 
@@ -22,7 +22,7 @@ cd my-app
 npm start
 ```
 
-#### react脚手架项目结构
+### react脚手架项目结构
 
 执行命令后，你的项目结构应该如：
 

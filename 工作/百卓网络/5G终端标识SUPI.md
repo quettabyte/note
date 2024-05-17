@@ -12,11 +12,11 @@
 
 ## IMSI
 
-<img src="https://cokeice-pic.oss-cn-wulanchabu.aliyuncs.com/IMSI-struct.png"  />
+![2024-5-17-23-49-26.png](https://lnfeng-pic.oss-cn-wulanchabu.aliyuncs.com/byzoro-note/2024-5-17-23-49-26.png)
 
 ## SUPI
 
-<img src="https://cokeice-pic.oss-cn-wulanchabu.aliyuncs.com/SUPI-struct.png"  />
+![2024-5-17-23-49-41.png](https://lnfeng-pic.oss-cn-wulanchabu.aliyuncs.com/byzoro-note/2024-5-17-23-49-41.png)
 
 SUCI 由以下部分组成：
 

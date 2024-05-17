@@ -16,7 +16,7 @@ https://www.mysql.com
 
 选择操作系统，点击下载
 
-<img src="https://cokeice-pic.oss-cn-wulanchabu.aliyuncs.com/image-20221106133837024.png"  style="zoom: 67%; margin-Left: 0"/>
+<img src="https://lnfeng-pic.oss-cn-wulanchabu.aliyuncs.com/tools-note/2024-5-18-00-21-08.png" alt="2024-5-18-00-21-08.png" style="zoom:67%; margin-Left: 0" />
 
 ## 工具nacicat premium
 

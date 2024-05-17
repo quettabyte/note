@@ -1,5 +1,7 @@
 # C程序的存储空间布局
 
+![2024-5-18-00-27-42.png](https://lnfeng-pic.oss-cn-wulanchabu.aliyuncs.com/unixc-note/2024-5-18-00-27-42.png)
+
 ## 摘要
 
 堆区、栈区、静态存储区（BSS段、数据段、正文段）以及static修饰符
@@ -17,6 +19,8 @@ $ size ./a.out /usr/bin/sh
 ```
 
 第4列和第5列是分别是以十进制和十六进制表示这三段的总长度。
+
+
 
 ## 正文段
 

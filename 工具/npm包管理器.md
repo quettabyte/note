@@ -66,7 +66,7 @@ $ npm install xxx --save-dev
 
 > 注意：-D，-S 分别是 --save-dev和 --save的简写，默认就是 -S，可以省略不写
 >
-> ==========================================================
+> ---
 >
 >  npm i module_name -S    
 >
@@ -76,7 +76,7 @@ $ npm install xxx --save-dev
 >
 > 说白了你安装一个库如果是用来构建你的项目的，比如echarts、element-ui，是实际在项目中起作用，就可以使用 -s 来安装。
 >
-> ==========================================================
+> ---
 >
 > npm i module_name -D   
 > 这样安装是局部安装的，会写进package.json文件中的devDependencies 里。

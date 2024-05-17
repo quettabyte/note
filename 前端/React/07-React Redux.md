@@ -2,7 +2,7 @@
 
 ### React-Redux基本概念
 
-<img src="https://cokeice-pic.oss-cn-wulanchabu.aliyuncs.com/react-redux-yuanli.jpg" style />
+<img src="https://lnfeng-pic.oss-cn-wulanchabu.aliyuncs.com/web-note/react/2024-5-17-23-32-43.jpg" alt="2024-5-17-23-32-43.jpg" style="zoom: 67%;" />
 
 1.  ✔明确两个概念：
     *   UI组件:不能使用任何redux的api，只负责页面的呈现、交互等。
@@ -194,7 +194,7 @@ npm install react-redux
     import React, { Component } from 'react'
     import Count from './containers/Count'
     import store from './redux/store'
-
+    
     export default class App extends Component {
     	render() {
     		return (

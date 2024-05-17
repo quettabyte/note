@@ -62,7 +62,7 @@ origin  https://gitee.com/quettabyte/dfdf.git (push)
 
 因此`fetch`时将从`GitHub`拉取代码，`push`时将推送到`Gitee`和`GitHub`两个远端
 
-<img src="https://lnfeng-pic.oss-cn-wulanchabu.aliyuncs.com/tools-note/2024-5-8-18_07_53.png" style="zoom:80%;" />
+<img src="https://lnfeng-pic.oss-cn-wulanchabu.aliyuncs.com/tools-note/2024-5-18-00-23-15.png" alt="2024-5-18-00-23-15.png" style="zoom:80%;" />
 
 ## 方法三：GitHub Actions
 
@@ -80,7 +80,7 @@ origin  https://gitee.com/quettabyte/dfdf.git (push)
 
 首先，在仓库中选中Actions，单击`set up a workflow yourself`创建工作流程。
 
-<img src="https://lnfeng-pic.oss-cn-wulanchabu.aliyuncs.com/tools-note/2024-5-8-18_18_55.png" style="zoom: 67%;" />
+<img src="https://lnfeng-pic.oss-cn-wulanchabu.aliyuncs.com/tools-note/2024-5-18-00-23-43.png" alt="2024-5-18-00-23-43.png" style="zoom:67%;" />
 
 然后在代码编辑器粘贴以下代码，以下为相关命令的含义，更多可 [参考](https://docs.github.com/cn/actions/using-workflows/workflow-syntax-for-github-actions)。
 
@@ -107,7 +107,7 @@ jobs:
 
 编辑后点击Commit提交，由于代码是在`GitHub`上提交的，相当于是本地代码推送`push`了一次，而脚本的执行条件就是`push`事件的发生，因此`GitHub Actions`将会触发。单击`Create main.yml`查看此次推送执行的工作流程，成功在虚拟机下打印出`Hello world`。
 
-<img src="https://lnfeng-pic.oss-cn-wulanchabu.aliyuncs.com/tools-note/2024-5-8-18_25_47.png" style="zoom: 67%;" />
+<img src="https://lnfeng-pic.oss-cn-wulanchabu.aliyuncs.com/tools-note/2024-5-18-00-23-58.png" alt="2024-5-18-00-23-58.png" style="zoom:67%;" />
 
 ### 实现镜像
 
@@ -157,13 +157,13 @@ fEXHsCXu9woZ7HbXxbTKAAAAEnF1ZXR0YWJ5dGVAMTYzLmNvbQECAw==
 
 公钥需要添加到Gitee账户下，这时候携带私钥的主机去提交才能提交成功。
 
-<img src="https://lnfeng-pic.oss-cn-wulanchabu.aliyuncs.com/tools-note/2024-5-9-10_10_29.png" alt="2024-5-9-10_10_29.png" style="zoom: 67%;" />
+<img src="https://lnfeng-pic.oss-cn-wulanchabu.aliyuncs.com/tools-note/2024-5-18-00-24-14.png" alt="2024-5-18-00-24-14.png" style="zoom:67%;" />
 
 #### 私钥添加到Github
 
 在GitHub的仓库（需要同步的仓库）下，`Settings`功能选择`Secrets and variables`->`Actions`，单击`New repository secret`添加秘钥。注意：需要将文件中所有内容都复制过去。
 
-<img src="https://lnfeng-pic.oss-cn-wulanchabu.aliyuncs.com/tools-note/2024-5-9-10_17_04.png" alt="2024-5-9-10_17_04.png" style="zoom:80%;" />
+<img src="https://lnfeng-pic.oss-cn-wulanchabu.aliyuncs.com/tools-note/2024-5-18-00-24-27.png" alt="2024-5-18-00-24-27.png" style="zoom:80%;" />
 
 #### 编辑.yml文件
 

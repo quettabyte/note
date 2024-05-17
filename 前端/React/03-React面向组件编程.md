@@ -379,7 +379,7 @@ render(){
 
 #### 旧版本
 
-<img src="https://cokeice-pic.oss-cn-wulanchabu.aliyuncs.com/react%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F(%E6%97%A7).png" style="width:600px;" />
+<img src="https://lnfeng-pic.oss-cn-wulanchabu.aliyuncs.com/web-note/react/2024-5-17-23-31-10.png" alt="2024-5-17-23-31-10.png" style="zoom:67%;" />
 
 1. 初始化阶段: 由`ReactDOM.render()`触发---初次渲染
 
@@ -408,7 +408,7 @@ render(){
 
 #### 新版本
 
-<img src="https://cokeice-pic.oss-cn-wulanchabu.aliyuncs.com/react%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F(%E6%96%B0).png" style="width:600px;" />
+<img src="https://lnfeng-pic.oss-cn-wulanchabu.aliyuncs.com/web-note/react/2024-5-17-23-31-48.png" alt="2024-5-17-23-31-48.png" style="zoom: 67%;" />
 
 * 新版删除了三个钩子函数：`componentWillMount` 、`componentWillReceiveProps` 、 `componentWillUpdate` 。在新版本中这三个钩子需要加 `UNSAFE_` 前缀才能使用，后续可能会废弃。
 

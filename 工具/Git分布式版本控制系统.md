@@ -162,7 +162,7 @@ github仓库的push必须使用token
 
 打开控制面板，进入用户账户： 进入凭据管理器： 选择Windows凭据，看到下方的普通凭据，删除git的记录即可：   删除了git本地的账户密码，再次clone项目，会提示输入用户名和密码操作
 
-<img src="https://cokeice-pic.oss-cn-wulanchabu.aliyuncs.com/1683971268976.png" />
+<img src="https://lnfeng-pic.oss-cn-wulanchabu.aliyuncs.com/tools-note/2024-5-18-00-20-38.png" alt="2024-5-18-00-20-38.png" style="zoom:67%;" />
 
 # 仓库命令
 
