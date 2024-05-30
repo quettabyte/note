@@ -28,7 +28,7 @@
 
 9. 如果不是16字节或者使用该key值无法解密ts视频文件，则说明是二次加密。
 
-10. 二次加密如果对JS不是很懂。则很难找到解密方式。
+10. 二次加密如果对JS不是很懂。则很难找到解密方式。那么可以直接打断点找他解密后的`key`。
 
 11. 可以在视频播放页面找到URI=`"xxxx"`的
 
@@ -37,6 +37,13 @@
 12. 打开调用栈，找到send的位置，打上断点，然后点击单步执行，慢慢的找key
 
 13. 网课，send打断点，点击播放，断点断住第一次，key位置为null，在点击执行，还会再该send位置断住，查看`e>frag>levelkey>key`就是解密后的key。
+
+    ```python
+    # python 10进制转16进制代码
+    decimal_numbers = [35,78,234,135,118,37,15,85,43,124,232,8,137,37,130,73]
+    for num in decimal_numbers:
+        print(hex(num)[2:].zfill(2),end="")
+    ```
 
     <img src="https://lnfeng-pic.oss-cn-wulanchabu.aliyuncs.com/tools-note/2024-5-29-17_29_33.png" style="zoom: 80%;" />
 
