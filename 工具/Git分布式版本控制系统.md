@@ -202,3 +202,17 @@ $ git remote rm origin
 ```shell
 $ git push -u origin master
 ```
+
+## 设置Git的HTTPS代理
+
+```
+git config --global http.proxy 'socks5://127.0.0.1:7890' 
+git config --global https.proxy 'socks5://127.0.0.1:7890'
+```
+
+撤销代理配置：
+
+```
+git config --global --unset http.proxy 
+git config --global --unset https.proxy
+```
